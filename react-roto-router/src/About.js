@@ -1,13 +1,12 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import "./App.css"
 
 function About(){
     return(
-        <div>
-           <h1>About</h1> 
-           <nav>
-               <Link to="/">About</Link>
-           </nav>
+        <div className="about-container">
+           <h1 className="about-header">About</h1> 
+           <main className="about-main"></main>
+           <footer className="about-footer"></footer>
         </div>
     )
 }

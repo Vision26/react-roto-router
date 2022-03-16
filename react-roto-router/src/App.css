@@ -1,1 +1,88 @@
+.toot{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkgoldenrod;
+    height: 65px;
+}
 
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    height: 70px;
+}
+
+a:link{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home-container{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr ;
+}
+
+.home-header{
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: darkkhaki;
+    height: 50px;
+}
+
+.home-main{
+    grid-row: 2 /3;
+    background-color:darkolivegreen;
+}
+
+.home-footer{
+    grid-row: 3 / 4;
+    background-color: darkslategray;
+}
+
+.about-container{
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.about-header{
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: deeppink;
+    height: 50px;
+}
+
+.about-main{
+    grid-row: 2 / 3;
+    background-color:fuchsia;
+}
+
+.about-footer{
+    grid-row: 3 / 4;
+    background-color: hotpink;
+}
+
+.services-container{
+    display:grid;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.services-header{
+    grid-row: 1 / 2;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    height: 50px;
+}
+
+.services-main{
+    grid-row: 2 / 3;
+    background-color: black;
+}
+
+.services-footer{
+    grid-row: 3 / 4;
+    background-color:dimgray;
+}
